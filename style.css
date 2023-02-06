@@ -1,0 +1,48 @@
+/* Make the font Arial */
+body {
+	font-family: Arial;
+}
+
+/* Center the Header */
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+
+#row1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	align-content: left;
+}
+
+#row2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	align-content: left;
+}
+
+#row3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	align-content: left;
+}
+
+#col5 img {
+	margin-left: auto;
+	margin-right: auto;
+
+	/*Make Image grow and shrink dynamically*/
+	max-width: 100%;
+    height: auto;
+    width: 700px; 
+}
