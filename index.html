@@ -5,6 +5,7 @@
 
     <meta charset=utf-8/>
 
+    <!-- Set Title and Link Style Sheet -->
     <title>hw-03</title> 
     <link rel="stylesheet" href="style.css">
 
@@ -13,147 +14,160 @@
 
 <body>
     
+    <!-- Add Main Header -->
     <div>
         <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
     </div>
     
+    <!-- Make Div for First Vis and the Description Next to It -->
     <div id="row1">
+
+        <!-- Make Div for the First Vis -->
         <div id="col1">
 
             <img src="img/vis1.png">
 
         </div>
 
+        <!-- Make Div for Vis 1 Description -->
         <div id="col2">
 
             <h2>Marks</h2>
 
             <ul>
-                <li>mark 1</li>
-                <li>mark 2</li>
-                <li>...</li>
+                <li>Areas - Map of Country and Votes Needed To Win Bar</li>
+                <li>Points - Nebraska and Maine Electoral Votes</li>
             </ul>
 
             <h2>Channels</h2>
 
             <ul>
-                <li>channel 1</li>
+                <li>Color - Clinton is Blue, Trump is Red</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a good mapping, because</li>
+                    <li>Represents attribute of the categorical type on color hue</li>
+                    <li>This is a good mapping, because the differing colors clearly help the view know which party leader would have been elected by women in each state</li>
                 </ul>
-                <li>channel 2</li>
+                <li>Position (Horizontal) - Electoral Votes Needed To Win</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a poor mapping, because</li>
+                    <li>Represents attribute of ordered, quantitative, diverging for position on a common scale</li>
+                    <li>This is a good mapping, because it clearly shows which candidate receives the majority of the votes and if they won or not</li>
                 </ul>
-                <li>...</li>
             </ul>
 
-            <h2>Colormap(s)</h2>
+            <h2>Colormaps</h2>
 
             <ul>
-                <li>colormap 1</li>
+                <li>Categorical - By Political Party</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a good mapping, because</li>
+                    <li>Represents attribute of the type, Categorical</li>
+                    <li>This is a good mapping, because it helps show which states are Democrat majority(blue), Republican majority (red), and in-between (red and blue)</li>
                 </ul>
-                <li>...</li>
+                <li>Divergent - Majority Democrat, In-Between, Majority Republican</li>
+                <ul>
+                    <li>Represents attribute of the type, Ordered and Qualitative</li>
+                    <li>This is a good mapping, because it helps show the result of the vote count by which color it is and you clearly see who won the state.</li>
+                </ul>
             </ul>
 
         </div>
     </div>
 
+    <!-- Make Div for Second Vis and the Description Next to It -->
     <div id="row2">
+
+        <!-- Make Div for the Second Vis -->
         <div id="col3">
 
             <img src="img/vis2.png">
 
         </div>
 
+        <!-- Make Div for Vis 2 Description -->
         <div id="col4">
 
             <h2>Marks</h2>
 
             <ul>
-                <li>mark 1</li>
-                <li>mark 2</li>
-                <li>...</li>
+                <li>Points - Type of Way a Baseball Can Be Thrown (Velocity and Angle)</li>
+                <li>Area - What Kind of Hit It Is (Pop-up, Home Run, Fly Ball, etc.)</li>
             </ul>
 
             <h2>Channels</h2>
 
             <ul>
-                <li>channel 1</li>
+                <li>Position (Both) - The Angle and Velocity of the Ball</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a good mapping, because</li>
+                    <li>Represents attribute of the type Ordered and tilt/angle(for position on graph)</li>
+                    <li>This is a good mapping, because it clearly depicts how the ball was hit and how it differes from the other points</li>
                 </ul>
-                <li>channel 2</li>
+                <li>Color - Scoring Value</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a poor mapping, because</li>
+                    <li>Represents attribute of the qualitative type on color saturation</li>
+                    <li>This is a good mapping, because it is easy to tell how well a ball hit in that way will do in terms of scoring value</li>
                 </ul>
-                <li>...</li>
+                <li>Position (Horizontal) - Scoring Value Bar</li>
+                <ul>
+                    <li>Represents attribute of type ordered, quantitative, diverging for position on a common scale</li>
+                    <li>This is a good mapping, because you can see the scale of color from being below average scoring value, average, or above</li>
+                </ul>
             </ul>
 
-            <h2>Colormap(s)</h2>
+            <h2>Colormap</h2>
 
             <ul>
-                <li>colormap 1</li>
+                <li>Divergent - Below Average, Average, or Above Average Scoring Value</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a good mapping, because</li>
+                    <li>Represents attribute of type, Ordered and Qualitative</li>
+                    <li>This is a good mapping, because you can clearly see if it is below average for scoring value, in the midde or average, or above the average for scoring</li>
                 </ul>
-                <li>...</li>
             </ul>
 
         </div>
 
     </div>
 
+    <!-- Make Div for Third Vis and the Description Next to It -->
     <div id="row3">
+
+        <!-- Make Div for the Third Vis -->
         <div id="col5">
 
             <img src="img/vis3.png">
 
         </div>
 
+        <!-- Make Div for Vis 3 Description -->
         <div id="col6">
 
             <h2>Marks</h2>
 
             <ul>
-                <li>mark 1</li>
-                <li>mark 2</li>
-                <li>...</li>
+                <li>Lines - The Wins Over Weeks for Each Team</li>
             </ul>
 
             <h2>Channels</h2>
 
             <ul>
-                <li>channel 1</li>
+                <li>Position (Both) - The Amount of Wins for Each Week</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a good mapping, because</li>
+                    <li>Represents attribute of the type Ordered and tilt/angle(for increase in wins)</li>
+                    <li>This is a good mapping, because it clearing shows the growth in team wins for each team over the weeks of the season</li>
                 </ul>
-                <li>channel 2</li>
+                <li>Color - Represent the Different Teams</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a poor mapping, because</li>
+                    <li>Represents attribute of the categorical type on color hue</li>
+                    <li>This is a good mapping, because you can clearly tell which line is for which team</li>
                 </ul>
-                <li>...</li>
             </ul>
 
-            <h2>Colormap(s)</h2>
+            <h2>Colormap</h2>
 
             <ul>
-                <li>colormap 1</li>
+                <li>Categorical - By Football Team</li>
                 <ul>
-                    <li>Represents attribute of type X</li>
-                    <li>This is a good mapping, because</li>
+                    <li>Represents attribute of the type, Categorical</li>
+                    <li>This is a good mapping, because you can see which team is which color on the graph</li>
                 </ul>
-                <li>...</li>
             </ul>
 
         </div>
@@ -161,15 +175,16 @@
     </div>
 
 
+    <!-- Create Smaller Header for Acknowledgements -->
     <h3>Acknowledgements</h3>
 
+    <!-- Create Div for Acknowledgements -->
     <div>
         <ul>
             <li>
                 <a href="https://www.pro-football-reference.com" target="_blank">Pro Football Reference</a>
             </li>
-            <li>...</li>
-            <li>...</li>
+
         </ul>
     </div>
 
